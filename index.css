@@ -1,0 +1,51 @@
+body{
+background-color: #F6DCF5;
+margin-left: 80px;
+margin-right: 80px;
+font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.logo{
+    width: 80px;
+    margin-right: 20px;
+}
+.first {
+    margin-right: 10px;
+}
+.name{
+    border: 5px solid black
+}
+.navigation{
+    width: 450px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    border: 2px solid black;
+}
+p.aboutme {
+    border: 3px solid black;
+    height: 200px;
+}
+.sierra{
+    width: 350px;
+    border-radius: 25px;
+}
+.intro{
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-evenly;
+
+}
