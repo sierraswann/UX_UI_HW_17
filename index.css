@@ -47,5 +47,37 @@ p.aboutme {
     display: flex;
     border: 2px solid white;
     justify-content: space-evenly;
-
+}
+.CS {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "WWCard WWDes"
+    "DOLDes DOLCard"
+    "ABRCard ABRDes";
+}
+.WWCard {
+    grid-area: WWCard;
+    display: grid;
+}
+.WWDes {
+    grid-area: WWDes;
+    display: grid;
+}
+.DOLDes {
+    grid-area: DOLDes;
+    display: grid;
+}
+.DOLCard {
+    grid-area: DOLCard;
+    display: grid;
+}
+.ABRCard {
+    grid-area: ABRCard;
+    display: grid;
+}
+.ABRDes {
+    grid-area: ABRDes;
+    display: grid;
 }
