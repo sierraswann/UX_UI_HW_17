@@ -60,24 +60,49 @@ p.aboutme {
 .WWCard {
     grid-area: WWCard;
     display: grid;
+    border: 3px solid #FF079C;
+    border-radius: 25px;
+    box-shadow: 6px 6px 5px #CC13F2;
+    padding: 100px;
+    height: 150px;
+    width: 200px;
+    justify-content: left;
+    text-align: center;
 }
 .WWDes {
     grid-area: WWDes;
-    display: grid;
+    padding: 150px 0;
 }
 .DOLDes {
     grid-area: DOLDes;
-    display: grid;
+    padding: 150px 0;
 }
 .DOLCard {
     grid-area: DOLCard;
     display: grid;
+    border: 3px solid #FF079C;
+    border-radius: 25px;
+    padding: 100px;
+    height: 150px;
+    width: 200px;
+    justify-content: right;
+    text-align: center;
+    
 }
+
 .ABRCard {
     grid-area: ABRCard;
     display: grid;
+    border: 3px solid #FF079C;
+    border-radius: 25px;
+    padding: 100px;
+    height: 150px;
+    width: 200px;
+    justify-content: left;
+    text-align: center;
 }
+
 .ABRDes {
     grid-area: ABRDes;
-    display: grid;
+    padding: 150px 0;
 }
